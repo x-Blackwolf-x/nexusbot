@@ -78,3 +78,14 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.header-image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-image-container img {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
