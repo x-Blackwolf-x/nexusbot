@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #000000; /* Fondo negro */
-    color: #93C572; /* Texto verde pistacho */
+    color: ##00FF00; /* Texto verde pistacho */
 }
 
 /* Header */
@@ -31,16 +31,16 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #93C572; /* Texto verde pistacho */
+    color: ##00FF00; /* Texto verde pistacho */
     padding: 10px 20px;
-    border: 1px solid #93C572; /* Borde verde pistacho */
+    border: 1px solid ##00FF00; /* Borde verde pistacho */
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #93C572; /* Fondo verde pistacho al pasar el mouse */
-    color: #1a1a1a; /* Texto oscuro al pasar el mouse */
+    background-color: ##00FF00; /* Fondo verde pistacho al pasar el mouse */
+    color: #000000; /* Texto oscuro al pasar el mouse */
 }
 
 /* Imagen del Header */
@@ -58,7 +58,7 @@ nav ul li a:hover {
 
 /* Título del Header */
 header h1 {
-    color: #93C572; /* Texto verde pistacho */
+    color: ##00FF00; /* Texto verde pistacho */
     text-align: center;
     margin-top: 20px;
 }
@@ -70,7 +70,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #1a1a1a;
+    background-color: ##000000;
     color: #666666;
     text-align: center;
     padding: 10px;
