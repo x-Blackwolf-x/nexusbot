@@ -2,25 +2,65 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0d0d0d;
-    color: #ffffff;
+    background-color: #000000; /* Fondo negro */
+    color: #93C572; /* Texto verde pistacho */
 }
 
 /* Header */
 header {
     background-color: #1a1a1a;
-    padding: 20px;
+    padding-bottom: 20px;
+}
+
+/* Menú de Navegación */
+nav {
+    background-color: #1a1a1a;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #93C572; /* Texto verde pistacho */
+    padding: 10px 20px;
+    border: 1px solid #93C572; /* Borde verde pistacho */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #93C572; /* Fondo verde pistacho al pasar el mouse */
+    color: #1a1a1a; /* Texto oscuro al pasar el mouse */
+}
+
+/* Imagen del Header */
+.header-image-container {
     text-align: center;
+    margin-top: 20px;
 }
 
-header img {
-    width: 100%;
-    max-width: 600px;
+.header-image-container img {
+    width: 80%;
+    max-width: 800px;
     height: auto;
+    border-radius: 10px;
 }
 
+/* Título del Header */
 header h1 {
-    color: #00ccff;
+    color: #93C572; /* Texto verde pistacho */
+    text-align: center;
+    margin-top: 20px;
 }
 
 /* Main */
